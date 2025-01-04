@@ -14,6 +14,10 @@ use `pip install -r requirements.txt` to install libs needed
 - **机器学习的数学原理——回归问题**
 
   简单讲了线性回归与逻辑回归算法的推导与使用
+  
+- **机器学习的数学原理——简单聚类**
+
+​		介绍了两种常见的聚类算法(Kmeans与DBSCAN)以及它们的工作流程
 
 ## 代码
 
@@ -50,3 +54,31 @@ use `pip install -r requirements.txt` to install libs needed
   训练时可以选择sigmoid或softmax激活函数
   
   有预测与评估功能，能够保存与加载模型
+  
+- **KMeans**
+  
+  k-means算法，目录下有e5,e6两个测试例程
+  
+  - e5：简单二维聚类数据集
+  
+  - e6：小狗图片图像分割
+  
+  `KMeans.py`是手搓的k-means库
+  
+  评估标准支持inertia与轮廓系数
+  
+  有预测功能，能够保存与加载模型
+  
+- **DBSCAN**
+
+  DBSCAN算法，目录下有e7一个个测试例程
+  
+  - e7：简单二维聚类数据集
+  
+  `DBSCAN.py`是手搓的DBSCAN库
+  
+  支持计算k_distance便于找出合适的领域半径
+  
+  train训练过后能将不同簇存在clusters中，离群点存在noise中
+  
+  能够保存与加载模型
