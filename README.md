@@ -15,9 +15,9 @@ use `pip install -r requirements.txt` to install libs needed
 
   简单讲了线性回归与逻辑回归算法的推导与使用
   
-- **机器学习的数学原理——简单聚类**
+- **机器学习的数学原理——聚类与决策树**
 
-​		介绍了两种常见的聚类算法(Kmeans与DBSCAN)以及它们的工作流程
+​		介绍了两种常见的聚类算法以及决策树和它们的工作流程
 
 ## 代码
 
@@ -71,7 +71,7 @@ use `pip install -r requirements.txt` to install libs needed
   
 - **DBSCAN**
 
-  DBSCAN算法，目录下有e7一个个测试例程
+  DBSCAN算法，目录下有e7一个测试例程
   
   - e7：简单二维聚类数据集
   
@@ -82,3 +82,22 @@ use `pip install -r requirements.txt` to install libs needed
   train训练过后能将不同簇存在clusters中，离群点存在noise中
   
   能够保存与加载模型
+  
+- **DecisionTree**
+  
+  DecisionTree算法，目录下有e8,e9两个测试例程
+  
+  - e8：空气质量分值预测
+  - e9：电影票是否购买预测
+  
+  `DecisionTree.py`是手搓的决策树库
+  
+  要事先输入数组来声明当前特征是连续还是离散
+  
+  可以配置选择分类决策树与回归决策树进行训练
+  
+  评估标准分别为精度与决定系数
+  
+  支持显示树形结构
+  
+  有预测功能，能够保存与加载模型
