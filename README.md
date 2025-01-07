@@ -17,7 +17,7 @@ use `pip install -r requirements.txt` to install libs needed
   
 - **机器学习的数学原理——聚类与决策树**
 
-​		介绍了两种常见的聚类算法以及决策树和它们的工作流程
+  介绍了两种常见的聚类算法以及决策树和它们的工作流程
 
 ## 代码
 
